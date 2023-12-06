@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Path</title>
+    <link rel="stylesheet" href="assets/css/main/app.css">
+    <link rel="stylesheet" href="assets/css/main/app-dark.css">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="image/png">
+
+    <link rel="stylesheet" href="assets/css/shared/iconly.css">
+    <link rel="stylesheet" href="https://cdnjs .cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <style>
+        @media only screen and (max-width: 767px) {
+            .headerProfile {
+                padding: 0px !important;
+            }
+
+            .profileDes {
+                font-size: 9px;
+                font-weight: bold;
+            }
+
+            .profilePoints {
+                font-weight: bold !important;
+                font-size: 10px !important;
+                padding-left: 5px !important;
+            }
+
+            .pointnumner {
+                font-size: 1.3rem !important;
+            }
+
+            .pointText {
+                font-size: 11px !important;
+            }
+
+            .card .card-body {
+                padding: 10px !important;
+            }
+        }
+    </style>
+
+    <div id="app">
+
+        <div id="sidebar" class="active">
+            <div class="sidebar-wrapper active">
+
+
+                <div class="sidebar-header position-relative" style="background-color: #fff9e6;">
+                    <!-- light and dark  -->
+                    <div class="d-flex flex-column justify-content-center align-items-center"
+                        style="font-size: 1.6rem;">
+                        <div class="theme-toggle d-flex gap-2  align-items-center mt-2"
+                            style="display:none !important;">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" role="img" class="iconify iconify--system-uicons" width="20"
+                                height="20" preserveAspectRatio="xMidYMid meet" viewBox="0 0 21 21">
+                                <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path
+                                        d="M10.5 14.5c2.219 0 4-1.763 4-3.982a4.003 4.003 0 0 0-4-4.018c-2.219 0-4 1.781-4 4c0 2.219 1.781 4 4 4zM4.136 4.136L5.55 5.55m9.9 9.9l1.414 1.414M1.5 10.5h2m14 0h2M4.135 16.863L5.55 15.45m9.899-9.9l1.414-1.415M10.5 19.5v-2m0-14v-2"
+                                        opacity=".3"></path>
+                                    <g transform="translate(-210 -1)">
+                                        <path d="M220.5 2.5v2m6.5.5l-1.5 1.5"></path>
+                                        <circle cx="220.5" cy="11.5" r="4"></circle>
+                                        <path d="m214 5l1.5 1.5m5 14v-2m6.5-.5l-1.5-1.5M214 18l1.5-1.5m-4-5h2m14 0h2">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                            <div class="form-check form-switch fs-6">
+                                <input class="form-check-input  me-0" type="checkbox" id="toggle-dark">
+                                <label class="form-check-label"></label>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                aria-hidden="true" role="img" class="iconify iconify--mdi" width="20" height="20"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="m17.75 4.09l-2.53 1.94l.91 3.06l-2.63-1.81l-2.63 1.81l.91-3.06l-2.53-1.94L12.44 4l1.06-3l1.06 3l3.19.09m3.5 6.91l-1.64 1.25l.59 1.98l-1.7-1.17l-1.7 1.17l.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95l2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85c-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14c.4-.4.82-.76 1.27-1.08c.75-.53 1.93.36 1.85 1.19c-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82c-2.81 3.14-2.7 7.96.31 10.98c3.02 3.01 7.84 3.12 10.98.31Z">
+                                </path>
+                            </svg>
+                        </div>
+
+                        <div class="logo">
+                            <a href="index.html"><img src="/WhatsApp Image 2023-10-19 at 11.22.56_7d586454 (1).jpg"
+                                    alt="Logo" srcset=""></a>
+                        </div>
+                        <div style="color: black;">
+                            E-learning Portal
+                        </div>
+
+
+                        <div class="sidebar-toggler  x">
+                            <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="sidebar-menu">
+                    <ul class="menu">
+
+                        <li class="sidebar-item">
+                            <a href="index.html" class='sidebar-link'>
+                                <i style="color: black;" class="bi bi-grid-fill"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-item active">
+                            <a href="./component-navs.html" class='sidebar-link'>
+                                <i style="font-size: 18px; color: black;" class="bi bi-mortarboard"></i>
+                                <span>Learning Path</span>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-item">
+                            <a href="index.html" class='sidebar-link'>
+                                <i style="color: black;" class="bi bi-stack"></i>
+                                <span>Courses</span>
+                            </a>
+                        </li>
+
+
+                        <li class="sidebar-item" style="    position: absolute;
+                        bottom: 2%;
+                        left: 45%;
+                        transform: translateX(-50%);">
+                            <a href="index.html" class='sidebar-link'>
+                                <i style="color: black;" class="bi bi-box-arrow-right"></i>
+                                <span>Logout</span>
+                            </a>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="main">
+
+            <header class="mb-3">
+                <a href="#" class="burger-btn d-block d-xl-none">
+                    <i class="bi bi-justify fs-3"></i>
+                </a>
+            </header>
+
+
+
+
+            <style>
+                .fw-fc {
+                    font-weight: bold;
+                    color: black;
+                }
+
+                .youtubeimgDetains {
+                    font-weight: bold;
+                    color: black;
+                }
+
+                .modules {
+                    font-weight: bold;
+                    color: black;
+                }
+
+                .lectures {
+                    font-weight: bold;
+                    color: black;
+                }
+
+                .youtubeshortTitle {
+                    font-size: 1.6rem;
+                }
+
+                .pay a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-top: 50px;
+
+                }
+
+                .pay a img {
+                    width: 50%;
+
+                }
+
+                .youtubeShortVideoscreen {
+                    padding-top: 50px;
+                }
+
+                .youtubeshortdescription {
+                    font-size: 0.9rem;
+                }
+
+                @media only screen and (max-width: 900px) {
+                    .yotubetitle h2{
+                        font-size: 0.9rem !important;
+                    }
+                }
+                @media only screen and (max-width: 1500px) {
+                    /* .modules {
+                        font-size: 5px;
+
+                    } */
+
+                    .youtubeshortTitle {
+                        font-size: 15px; 
+                    }
+
+                    /* .youtubeshortdescription {
+                        font-size: 10px;
+                    } */
+                }
+
+                @media only screen and (max-width: 1300px) {
+
+                    /* .youtubeshortdescription {
+                        font-size: 1px;
+                    } */
+                }
+                /* @media only screen and (max-width: 900px) {
+
+.youtubeshortdescription {
+    font-size: 500px;
+}
+} */
+                @media only screen and (max-width: 900px) {
+                    /* .modules {
+                        font-size: 5px;
+
+                    } */
+                   
+
+                    .youtubeshortTitle {
+                        font-size: 15px;
+                    }
+                    .continueButton button{
+                        width: 71% !important ;
+                    }
+
+                    /* .youtubeshortdescription {
+                        font-size: 1px;
+                    } */
+                }
+                .bc-br{
+                    background-color: rgb(245, 245, 245);
+                    border-radius: 20px;
+                    margin-top: 10px;
+                }
+                #videoSearch::placeholder{
+                    padding-left: 10px;
+                    font-weight: bold;
+                }
+                #videoSearch2::placeholder{
+                    padding-left: 10px;
+                    font-weight: bold;
+                }
+                #videoSearch3::placeholder{
+                    padding-left: 10px;
+                    font-weight: bold;
+                }
+            </style>
+
+            <style>
+                .leftVideoTiItle {
+                    font-weight: bolder;
+                    color: black;
+                }
+            </style>
+            <style>
+                /* component */
+
+                .star-rating {
+                    /* border:solid 1px #ccc; */
+                    display: flex;
+                    flex-direction: row-reverse;
+                    font-size: 1.5em;
+                    justify-content: space-around;
+                    padding: 0 .2em;
+                    text-align: center;
+                    width: 5em;
+                }
+
+                .star-rating input {
+                    display: none;
+                }
+
+                .star-rating label {
+                    color: #ccc;
+                    cursor: pointer;
+                }
+
+                .star-rating :checked~label {
+                    color: #f90;
+                }
+
+                .star-rating label:hover,
+                .star-rating label:hover~label {
+                    color: #fc0;
+                }
+
+                /* explanation */
+
+                article {
+                    background-color: #ffe;
+                    box-shadow: 0 0 1em 1px rgba(0, 0, 0, .25);
+                    color: #006;
+                    font-family: cursive;
+                    font-style: italic;
+                    margin: 4em;
+                    max-width: 30em;
+                    padding: 2em;
+                }
+            </style>
+
+
+
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 order-2 order-md-1 pt-3" id="second">
+                        <div class="col-12">
+                            <div class="heading">
+                                <h2>Learning Path</h2>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+
+                            <div class="card-body">
+
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link active" id="home-tab" data-bs-toggle="tab" href="#home"
+                                            role="tab" aria-controls="home" aria-selected="true">For Me</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="profile-tab" data-bs-toggle="tab" href="#profile"
+                                            role="tab" aria-controls="profile" aria-selected="false">Active</a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a class="nav-link" id="contact-tab" data-bs-toggle="tab" href="#contact"
+                                            role="tab" aria-controls="contact" aria-selected="false">Completed</a>
+                                    </li>
+                                </ul>
+
+                                <div class="tab-content" id="myTabContent">
+
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                        aria-labelledby="home-tab">
+
+                                        <div class="search-container">
+                                            <input type="text" id="videoSearch" placeholder="Searchs" class="round-search-input">
+                                            <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                                        </div>
+                                        <style>
+                                            .search-container {
+                                                display: flex;
+                                                align-items: center;
+                                                background-color: #fff;
+                                                border-radius: 20px;
+                                                margin-top: 2%;
+                                                width: 10%;
+                                            }
+                                        
+                                            .round-search-input {
+                                                flex: 1;
+                                                border: none;
+                                                outline: none;
+                                                border-radius: 20px;
+                                                padding: 5px;
+                                            }
+                                        
+                                            .search-button {
+                                                background: none;
+                                                border: none;
+                                                cursor: pointer;
+                                            }
+                                        </style>
+
+
+                                        <div class="col-12 demo">
+                                            <div class="row">
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="tab-pane fade" id="profile" role="tabpanel"
+                                        aria-labelledby="profile-tab">
+
+
+                                        <div class="search-container">
+                                            <input type="text" id="videoSearch2" placeholder="Searchs" class="round-search-input">
+                                            <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                                        </div>
+                                        <style>
+                                            .search-container {
+                                                display: flex;
+                                                align-items: center;
+                                                background-color: #fff;
+                                                border-radius: 20px;
+                                                margin-top: 2%;
+                                                width: 10%;
+                                            }
+                                        
+                                            .round-search-input {
+                                                flex: 1;
+                                                border: none;
+                                                outline: none;
+                                                border-radius: 20px;
+                                                padding: 5px;
+                                            }
+                                        
+                                            .search-button {
+                                                background: none;
+                                                border: none;
+                                                cursor: pointer;
+                                            }
+                                        </style>
+
+                                        <div class="col-12 demo">
+                                            <div class="row">
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="tab-pane fade" id="contact" role="tabpanel"
+                                        aria-labelledby="contact-tab">
+
+                                        <div class="search-container">
+                                            <input type="text" id="videoSearch3" placeholder="Searchs" class="round-search-input">
+                                            <button type="submit" class="search-button"><i class="fa fa-search"></i></button>
+                                        </div>
+                                        <style>
+                                            .search-container {
+                                                display: flex;
+                                                align-items: center;
+                                                background-color: #fff;
+                                                border-radius: 20px;
+                                                margin-top: 2%;
+                                                width: 10%;
+                                            }
+                                        
+                                            .round-search-input {
+                                                flex: 1;
+                                                border: none;
+                                                outline: none;
+                                                border-radius: 20px;
+                                                padding: 5px;
+                                            }
+                                        
+                                            .search-button {
+                                                background: none;
+                                                border: none;
+                                                cursor: pointer;
+                                            }
+                                        </style>                                        <div class="col-12 demo">
+                                            <div class="row">
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 demo">
+                                            <div class="row">
+
+                                                <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                                    <div class="youtubeShortVideoscreen pt-4">
+                                                        <div
+                                                            style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                            <iframe
+                                                                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                                src="https://www.youtube.com/embed/VIDEO_ID_HERE"
+                                                                frameborder="0" allowfullscreen></iframe>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="leftVideoTiItle pt-4">
+                                                                Lorem ipsum dolor sit amet.
+                                                            </div>
+
+                                                            <div class="leftVideoDescription">
+                                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                                Veritatis odio sed nisi praesentium
+                                                                blanditiis
+                                                                accusantium esse! Earum veniam magni architecto
+                                                                deserunt,
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    style="display: flex; justify-content: space-between; align-items: center;">
+                                                                    <div>
+
+                                                                        <div class="star-rating">
+                                                                            <input type="radio" id="5-stars"
+                                                                                name="rating" value="5" />
+                                                                            <label for="5-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="4-stars"
+                                                                                name="rating" value="4" />
+                                                                            <label for="4-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="3-stars"
+                                                                                name="rating" value="3" />
+                                                                            <label for="3-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="2-stars"
+                                                                                name="rating" value="2" />
+                                                                            <label for="2-stars"
+                                                                                class="star">&#9733;</label>
+                                                                            <input type="radio" id="1-star"
+                                                                                name="rating" value="1" />
+                                                                            <label for="1-star"
+                                                                                class="star">&#9733;</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div>
+                                                                        Beginner
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+                    <script>
+                        $(document).ready(function () {
+                            $('#videoSearch').on('input', function () {
+                                var searchText = $(this).val().toLowerCase();
+
+                                // Loop through all .leftVideoTitle elements
+                                $('.leftVideoTiItle').each(function () {
+                                    var title = $(this).text().toLowerCase();
+                                    var col12 = $(this).closest('.demo');
+
+                                    // Check if the title contains the search text
+                                    if (title.includes(searchText)) {
+                                        col12.show(); // Show the col-12 section
+
+                                        // Find the youtubeShortVideoscreen within the current col-12 section
+                                        col12.find('.youtubeShortVideoscreen').show(); // Show the video
+                                    } else {
+                                        col12.hide(); // Hide the col-12 section
+                                        col12.find('.youtubeShortVideoscreen').hide(); // Hide the video
+                                    }
+                                });
+                            });
+                        });
+
+                        $(document).ready(function () {
+                            $('#videoSearch2').on('input', function () {
+                                var searchText = $(this).val().toLowerCase();
+
+                                // Loop through all .leftVideoTitle elements
+                                $('.leftVideoTiItle').each(function () {
+                                    var title = $(this).text().toLowerCase();
+                                    var col12 = $(this).closest('.demo');
+
+                                    // Check if the title contains the search text
+                                    if (title.includes(searchText)) {
+                                        col12.show(); // Show the col-12 section
+
+                                        // Find the youtubeShortVideoscreen within the current col-12 section
+                                        col12.find('.youtubeShortVideoscreen').show(); // Show the video
+                                    } else {
+                                        col12.hide(); // Hide the col-12 section
+                                        col12.find('.youtubeShortVideoscreen').hide(); // Hide the video
+                                    }
+                                });
+                            });
+                        });
+
+                        $(document).ready(function () {
+                            $('#videoSearch3').on('input', function () {
+                                var searchText = $(this).val().toLowerCase();
+
+                                // Loop through all .leftVideoTitle elements
+                                $('.leftVideoTiItle').each(function () {
+                                    var title = $(this).text().toLowerCase();
+                                    var col12 = $(this).closest('.demo');
+
+                                    // Check if the title contains the search text
+                                    if (title.includes(searchText)) {
+                                        col12.show(); // Show the col-12 section
+
+                                        // Find the youtubeShortVideoscreen within the current col-12 section
+                                        col12.find('.youtubeShortVideoscreen').show(); // Show the video
+                                    } else {
+                                        col12.hide(); // Hide the col-12 section
+                                        col12.find('.youtubeShortVideoscreen').hide(); // Hide the video
+                                    }
+                                });
+                            });
+                        });
+                    </script>
+
+                    <div class="col-12 col-md-6 order-1 order-md-2" id="one" >
+                        <div class="row">
+
+                            <div class="col-12">
+                                <div class="youtubeVideo">
+                                    <div
+                                        style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                        <iframe
+                                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px; border-radius: 20px;"
+                                            src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="star-rating">
+                                    <input type="radio" id="5-stars"
+                                        name="rating" value="5" />
+                                    <label for="5-stars"
+                                        class="star">&#9733;</label>
+                                    <input type="radio" id="4-stars"
+                                        name="rating" value="4" />
+                                    <label for="4-stars"
+                                        class="star">&#9733;</label>
+                                    <input type="radio" id="3-stars"
+                                        name="rating" value="3" />
+                                    <label for="3-stars"
+                                        class="star">&#9733;</label>
+                                    <input type="radio" id="2-stars"
+                                        name="rating" value="2" />
+                                    <label for="2-stars"
+                                        class="star">&#9733;</label>
+                                    <input type="radio" id="1-star"
+                                        name="rating" value="1" />
+                                    <label for="1-star"
+                                        class="star">&#9733;</label>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-2">
+
+                                        <div class="yotubeimg pt-3"
+                                            style="display: flex; justify-content: center; text-align: center;">
+                                            <div class="avatar avatar-lg">
+                                                <img src="assets/images/faces/4.jpg">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-10">
+                                        <div class="youtubeimgDetains pt-3">
+                                            <div>Jasprit Hilton</div>
+                                            <div>PhD, MSC in Business</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="yotubetitle pt-3">
+                                    <h2>CH101 - computer Handing Basisc</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="description">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus unde nostrum,
+                                    laudantium libero molestiae
+                                    dolores tempore, corrupti quod illum ad accusantium fuga vitae voluptatibus ratione
+                                    officiis doloremque,
+                                    quisquam nihil sapiente.
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia maiores cum itaque,
+                                    sed voluptates explicabo
+                                    repellendus facere autem odit eos nemo corrupti quaerat praesentium, ipsum optio
+                                    quasi omnis vel saepe!
+                                </div>
+                            </div>
+
+                            <div class="col-12 pt-2">
+                                <div style="display: flex; justify-content: space-between;">
+                                    <div class="modules">
+                                        Modules
+                                    </div>
+                                    <div class="Lecture">
+                                        12 Lectures * 3.5 hrs
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row bc-br">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                        <div class="youtubeShortVideoscreen pt-4">
+                                            <div
+                                                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                <iframe
+                                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                    src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <div class="youtubeshortTIme pt-4 fw-fc">
+                                                    03:29
+                                                </div>
+                                                <div class="youtubeshortTitle fw-fc">
+                                                    Intro
+                                                </div>
+                                                <div class="youtubeshortdescription">
+                                                    The introduction basically talks about doing this and that.
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="pay">
+                                                    <a href="">
+                                                        <img src="./play.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="row bc-br">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                        <div class="youtubeShortVideoscreen pt-4">
+                                            <div
+                                                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                <iframe
+                                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                    src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <div class="youtubeshortTIme pt-4 fw-fc">
+                                                    03:29
+                                                </div>
+                                                <div class="youtubeshortTitle fw-fc">
+                                                    Intro
+                                                </div>
+                                                <div class="youtubeshortdescription">
+                                                    The introduction basically talks about doing this and that.
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="pay">
+                                                    <a href="">
+                                                        <img src="./play.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><div class="col-12">
+                                <div class="row bc-br">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                        <div class="youtubeShortVideoscreen pt-4">
+                                            <div
+                                                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                <iframe
+                                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                    src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <div class="youtubeshortTIme pt-4 fw-fc">
+                                                    03:29
+                                                </div>
+                                                <div class="youtubeshortTitle fw-fc">
+                                                    Intro
+                                                </div>
+                                                <div class="youtubeshortdescription">
+                                                    The introduction basically talks about doing this and that.
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="pay">
+                                                    <a href="">
+                                                        <img src="./play.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><div class="col-12">
+                                <div class="row bc-br">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                        <div class="youtubeShortVideoscreen pt-4">
+                                            <div
+                                                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                <iframe
+                                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                    src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <div class="youtubeshortTIme pt-4 fw-fc">
+                                                    03:29
+                                                </div>
+                                                <div class="youtubeshortTitle fw-fc">
+                                                    Intro
+                                                </div>
+                                                <div class="youtubeshortdescription">
+                                                    The introduction basically talks about doing this and that.
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="pay">
+                                                    <a href="">
+                                                        <img src="./play.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><div class="col-12">
+                                <div class="row bc-br">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                        <div class="youtubeShortVideoscreen pt-4">
+                                            <div
+                                                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                <iframe
+                                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                    src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <div class="youtubeshortTIme pt-4 fw-fc">
+                                                    03:29
+                                                </div>
+                                                <div class="youtubeshortTitle fw-fc">
+                                                    Intro
+                                                </div>
+                                                <div class="youtubeshortdescription">
+                                                    The introduction basically talks about doing this and that.
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="pay">
+                                                    <a href="">
+                                                        <img src="./play.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><div class="col-12">
+                                <div class="row bc-br">
+                                    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 ">
+
+                                        <div class="youtubeShortVideoscreen pt-4">
+                                            <div
+                                                style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                                                <iframe
+                                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;border-radius:15px;"
+                                                    src="https://www.youtube.com/embed/VIDEO_ID_HERE" frameborder="0"
+                                                    allowfullscreen></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xxl-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                                        <div class="row">
+                                            <div class="col-9">
+                                                <div class="youtubeshortTIme pt-4 fw-fc">
+                                                    03:29
+                                                </div>
+                                                <div class="youtubeshortTitle fw-fc">
+                                                    Intro
+                                                </div>
+                                                <div class="youtubeshortdescription">
+                                                    The introduction basically talks about doing this and that.
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="pay">
+                                                    <a href="">
+                                                        <img src="./play.png" alt="">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <!-- <footer>
+                <div class="footer clearfix mb-0 text-muted">
+                    <div class="float-start">
+                        <p>2021 &copy; Mazer</p>
+                    </div>
+                    <div class="float-end">
+                        <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
+                                href="">Saugi</a></p>
+                    </div>
+                </div>
+            </footer> -->
+
+    </div>
+
+    </div>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/app.js"></script>
+
+    <!-- Need: Apexcharts -->
+    <script src="assets/extensions/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/js/pages/dashboard.js"></script>
+
+</body>
+
+</html>
